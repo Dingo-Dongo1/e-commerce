@@ -1,0 +1,71 @@
+.foto{
+    display: inline-block;
+    position: relative;
+}
+
+.sconto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+
+}
+.cinque{
+    background-color: green;
+}
+
+.cuore{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: red;
+    border-radius: 30px;
+    display: none;
+}
+
+.foto:hover .cuore{
+    display: block;
+}
+
+header{
+    text-align: center;
+
+}
+div{
+    text-align: center;
+
+}
+nav{
+    position: relative;
+    left: 20%;
+    background-color: blue;
+    width: 800px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.lista{
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: #666;}
